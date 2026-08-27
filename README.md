@@ -7,7 +7,7 @@ The official website for the **Gamma Upsilon Chapter of Sigma Nu** at the
 
 ---
 
-## 👋 New here? Read this first.
+Read this first.
 
 This repository holds the chapter's website. It's a simple, hand-coded site
 (plain HTML + CSS) hosted for free on **GitHub Pages**. When you push a change
