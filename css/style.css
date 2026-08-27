@@ -177,7 +177,12 @@ p { margin: 0 0 18px; }
 .card p { color: var(--muted); font-size: 0.98rem; margin: 0; }
 .section--parchment .card { background: var(--paper); }
 
-@media (max-width: 860px) { .cards { grid-template-columns: 1fr; } }
+.cards--two { grid-template-columns: repeat(2, 1fr); }
+
+@media (max-width: 860px) {
+  .cards { grid-template-columns: 1fr; }
+  .cards--two { grid-template-columns: 1fr; }
+}
 
 /* ---------- Values row ---------- */
 .values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; text-align: center; }
