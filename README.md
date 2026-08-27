@@ -3,7 +3,7 @@
 The official website for the **Gamma Upsilon Chapter of Sigma Nu** at the
 **University of Arkansas**.
 
-🔗 **Live site:** https://uarksigmanuwebsite.github.io/sigma-nu-gamma-upsilon/
+🔗 **Live site:** https://uarksigmanuwebsite.github.io/
 
 ---
 
@@ -23,7 +23,7 @@ for a non-technical officer. The short version:
 1. Get the **shared chapter GitHub login** (kept with the chapter's Instagram
    and email logins — *not* stored in this public repo).
 2. Open **Claude Code** and point it at this repo:
-   `github.com/UarkSigmaNuWebsite/sigma-nu-gamma-upsilon`
+   `github.com/UarkSigmaNuWebsite/uarksigmanuwebsite.github.io`
 3. Describe the change you want in plain English (e.g. *"change the Eminent
    Commander to [Name]"*), then tell it **"commit and push it."**
 4. Wait ~1 minute, then check the live site on your phone and computer.

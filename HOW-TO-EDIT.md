@@ -4,7 +4,7 @@ This is the chapter's website. You don't need to know how to code to update it â
 you'll use an AI assistant called **Claude Code** to make changes for you, in
 plain English. This guide walks you through it.
 
-**Live site:** https://uarksigmanuwebsite.github.io/sigma-nu-gamma-upsilon/
+**Live site:** https://uarksigmanuwebsite.github.io/
 
 ---
 
@@ -26,7 +26,7 @@ plain English. This guide walks you through it.
 ## Opening the website to edit it
 1. Sign in to Claude Code with your Claude account.
 2. Point it at the chapter's repository:
-   `github.com/UarkSigmaNuWebsite/sigma-nu-gamma-upsilon`
+   `github.com/UarkSigmaNuWebsite/uarksigmanuwebsite.github.io`
    (You can tell Claude: *"Clone and open this repo: <the URL above>"*.)
 3. That's it â€” Claude now has the whole website open and knows how it's built
    (there's a `CLAUDE.md` file that briefs it automatically).

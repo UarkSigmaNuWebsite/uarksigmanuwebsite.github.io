@@ -13,9 +13,9 @@ This file orients Claude Code so it can make edits reliably. Read it first.
 2. Commit and push to the `main` branch.
 3. GitHub Pages rebuilds automatically — the live site updates in about a minute.
 4. **Always confirm on the live site afterward:**
-   https://uarksigmanuwebsite.github.io/sigma-nu-gamma-upsilon/
+   https://uarksigmanuwebsite.github.io/
 
-Repo: `github.com/UarkSigmaNuWebsite/sigma-nu-gamma-upsilon`
+Repo: `github.com/UarkSigmaNuWebsite/uarksigmanuwebsite.github.io`
 
 ## Pages (8 total)
 | File | Purpose |
