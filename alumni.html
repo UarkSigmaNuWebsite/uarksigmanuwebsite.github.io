@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alumni — Sigma Nu Gamma Upsilon | University of Arkansas</title>
+  <meta name="description" content="Alumni of the Gamma Upsilon Chapter of Sigma Nu — reconnect, stay in touch, and give back to the brotherhood at the University of Arkansas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/razorback.png" alt="Arkansas Razorback" />
+        <span class="brand__text">
+          <span class="brand__name">Gamma Upsilon</span>
+          <span class="brand__sub">Sigma Nu · Arkansas</span>
+        </span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">History</a></li>
+        <li><a href="involvement.html">Involvement</a></li>
+        <li><a href="rush.html">Rush</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="alumni.html" aria-current="page">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="nav__cta" href="give.html">Give</a></li>
+        <li><a class="nav__fb" href="https://www.facebook.com/UARKSIGMANU/" target="_blank" rel="noopener">Facebook</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="section section--dark" style="padding-top:72px; padding-bottom:56px; text-align:center;">
+    <div class="wrap">
+      <p class="eyebrow">Gamma Upsilon Alumni</p>
+      <h1 style="font-size:clamp(2.4rem,6vw,4rem); margin:0 0 14px;">Once a Snake, Always a Snake</h1>
+      <p class="lead" style="margin:0 auto;">The bonds of brotherhood don't end at graduation. Reconnect with Gamma Upsilon,
+      stay in the loop, and help carry our legacy forward.</p>
+    </div>
+  </section>
+
+  <!-- ===== ALUMNI EVENTS ===== -->
+  <section class="section">
+    <div class="wrap" style="max-width:680px;">
+      <p class="eyebrow" style="text-align:center;">Alumni Events</p>
+      <h2 style="text-align:center;">Alumni Weekend Tailgate</h2>
+      <hr class="rule rule--center" />
+      <div class="event-card">
+        <span class="event-card__badge">🏈 Gameday</span>
+        <p class="event-card__matchup">Arkansas <span>vs</span> Tennessee</p>
+        <p class="event-card__date">Saturday · October 10, 2026</p>
+        <p class="event-card__meta">Alumni Tailgate · Fayetteville, Arkansas</p>
+        <p class="event-card__note">Join fellow Gamma Upsilon brothers before kickoff. Tailgate time and
+        location will be announced on our Instagram — watch there for details.</p>
+        <a class="btn btn--gold" href="https://www.instagram.com/uarksigmanu" target="_blank" rel="noopener">RSVP on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GIVE BACK ===== -->
+  <section class="section section--parchment">
+    <div class="wrap" style="text-align:center; max-width:760px;">
+      <p class="eyebrow">Give Back</p>
+      <hr class="rule rule--center" />
+      <h2>Invest in the Next Generation</h2>
+      <p class="lead" style="margin:0 auto 30px;">The brothers who came before us built what we inherited.
+      Your support sustains the chapter house, leadership programs, and the traditions that made Gamma Upsilon home.</p>
+      <a class="btn btn--gold" href="give.html">Support the Chapter</a>
+    </div>
+  </section>
+
+  <!-- ===== STAY CONNECTED FORM ===== -->
+  <section class="section">
+    <div class="wrap" style="text-align:center;">
+      <p class="eyebrow">Stay Connected</p>
+      <h2>Update Your Information</h2>
+      <p class="lead" style="margin:0 auto;">Moved, changed jobs, or got a new email? Let us know so we can keep you
+      in the loop on reunions, news, and chapter milestones.</p>
+
+      <!--
+        FORMSPREE_ID — replace the action URL below with your real Formspree
+        endpoint (e.g. https://formspree.io/f/abcdwxyz) once your account is set up.
+        Until then, submitting this form will not send anything.
+      -->
+      <form class="form" action="https://formspree.io/f/FORMSPREE_ID" method="POST">
+        <div class="form__row">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form__row form__row--split">
+          <div>
+            <label for="gradyear">Graduation Year</label>
+            <input type="text" id="gradyear" name="graduation_year" placeholder="e.g. 2014" />
+          </div>
+          <div>
+            <label for="pin">Pin Number</label>
+            <input type="text" id="pin" name="pin_number" placeholder="e.g. 1000" />
+          </div>
+        </div>
+        <div class="form__row form__row--split">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="city">City / State</label>
+            <input type="text" id="city" name="city" placeholder="e.g. Dallas, TX" />
+          </div>
+        </div>
+        <div class="form__row">
+          <label for="career">Career / Company <span style="text-transform:none; font-weight:400;">(optional)</span></label>
+          <input type="text" id="career" name="career" />
+        </div>
+        <div class="form__row">
+          <label for="note">Anything you'd like to share? <span style="text-transform:none; font-weight:400;">(optional)</span></label>
+          <textarea id="note" name="note"></textarea>
+        </div>
+        <div class="form__submit">
+          <button class="btn btn--gold" type="submit">Send Update</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== ALUMNI SPOTLIGHTS / NEWS =====
+       Hidden until brother bios are ready. To bring back, remove display:none below. -->
+  <section class="section section--parchment" style="display:none;">
+    <div class="wrap" style="text-align:center;">
+      <p class="eyebrow">Alumni News</p>
+      <h2>Brother Spotlights</h2>
+      <p class="lead" style="margin:0 auto 8px;">Celebrating the achievements of Gamma Upsilon brothers near and far.</p>
+
+      <div class="spotlights">
+        <article class="spotlight">
+          <p class="spotlight__meta">Class of [Year]</p>
+          <h3>[ Alumnus Name ]</h3>
+          <p><em>[ YOUR INPUT: a sentence or two on this brother's career, achievement, or contribution. ]</em></p>
+        </article>
+        <article class="spotlight">
+          <p class="spotlight__meta">Class of [Year]</p>
+          <h3>[ Alumnus Name ]</h3>
+          <p><em>[ YOUR INPUT: a sentence or two on this brother's career, achievement, or contribution. ]</em></p>
+        </article>
+        <article class="spotlight">
+          <p class="spotlight__meta">Class of [Year]</p>
+          <h3>[ Alumnus Name ]</h3>
+          <p><em>[ YOUR INPUT: a sentence or two on this brother's career, achievement, or contribution. ]</em></p>
+        </article>
+      </div>
+      <p class="note" style="max-width:620px; margin:30px auto 0;">
+        Know a brother worth featuring — or want to nominate yourself? Send it through the form above.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== REUNIONS & HOMECOMING ===== -->
+  <section class="section section--dark">
+    <div class="wrap" style="text-align:center; max-width:760px;">
+      <p class="eyebrow">Come Home to Fayetteville</p>
+      <h2>Reunions &amp; Homecoming</h2>
+      <p class="lead" style="margin:0 auto 26px;">Every fall, brothers return to the Hill for Homecoming weekend —
+      Razorback football, the chapter house, and the faces you haven't seen in far too long.</p>
+      <p class="lead" style="margin:0 auto 30px;">Details for each year's Homecoming and reunion events are shared
+      through our Facebook page. Planning a class reunion or want to help organize? Reach out and we'll connect you
+      with the right brothers.</p>
+      <a class="btn btn--ghost" href="https://www.facebook.com/UARKSIGMANU/" target="_blank" rel="noopener">Get Details on Facebook</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">Sigma Nu · <span>Gamma Upsilon</span></div>
+      <div><a href="https://www.facebook.com/UARKSIGMANU/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/uarksigmanu" target="_blank" rel="noopener">Instagram</a></div>
+      <div class="footer-legal">
+        Sigma Nu Fraternity — Gamma Upsilon Chapter · University of Arkansas · Founded 1904<br />
+        © 2026 Gamma Upsilon Chapter of Sigma Nu. Excelling with Honor.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>

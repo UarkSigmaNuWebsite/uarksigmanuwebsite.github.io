@@ -1,0 +1,5 @@
+# Internal / not for the public site
+.claude/
+WEBSITE-CONTENT.md
+images.png
+.DS_Store
